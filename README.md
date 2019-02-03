@@ -15,6 +15,7 @@
 
 #### 3. Installing Docker in Ubuntu
 
+WILL BE UPDATED SOON
 `$ docker --help`     will return info about all arguments that can be added to docker command
 #### 4. Pull Ubuntu image containing ns2
 
