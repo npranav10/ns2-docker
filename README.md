@@ -33,7 +33,7 @@ WILL BE UPDATED SOON
 *   Run `$ xhost local:root` on host machine to enable execution of GUI commands in the container
 *    `$ docker container run -it npranav10/ns2 bash` will enter into terminal mode of the container.
 *    To validate we can enter the follwing command in another terminal of host machine,
-     `$ sudo docker container ls` which will return container id running using corresponding image id.
+     `$ docker container ls` which will return container id running using corresponding image id.
 *   `$ docker run -it v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY npranav10/ns2 bash `
     will give you access to terminal of ubuntu container, where we can run ns2.
 *   The command `$ ns ns-simple.tcl` will execute the pre-downloaded sample file. If everything does well, a NAM window will pop up and then rest is in your hands in handling the ns2-ubuntu container. OUTPUT OF EXECUTED TCL FILE WILL BE STORED IN `OUT.NAM` FILE
