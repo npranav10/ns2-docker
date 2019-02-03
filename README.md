@@ -16,6 +16,7 @@
 #### 3. Installing Docker in Ubuntu
 
 WILL BE UPDATED SOON
+
 `$ docker --help`     will return info about all arguments that can be added to docker command
 #### 4. Pull Ubuntu image containing ns2
 
@@ -36,7 +37,7 @@ WILL BE UPDATED SOON
 *   `$ docker run -it v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY npranav10/ns2 bash `
     will give you access to terminal of ubuntu container, where we can run ns2.
 *   The command `$ ns ns-simple.tcl` will execute the pre-downloaded sample file. If everything does well, a NAM window will pop up and then rest is in your hands in handling the ns2-ubuntu container. OUTPUT OF EXECUTED TCL FILE WILL BE STORED IN `OUT.NAM` FILE
-#### 5. IMPLEMENTATION OF TRACEGRAPH WILL BE UPDATED SOON AND A WAY TO STORE YOUR FILES 
+#### 5. METHOD TO IMPLEMENT TRACEGRAPH AND A WAY TO STORE YOUR FILES WILL BE ADDED SOON
 
     
     
