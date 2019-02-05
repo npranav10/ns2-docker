@@ -6,7 +6,7 @@
 
 # Installation 
 
-#### 1. It is Adivisable to login as root
+#### 1. It is Advisable to login as root
    `$ sudo su`
 
 #### 2. Let's follow the linux best practices by updating the package lists and hence upgrading packages to latest version
@@ -15,7 +15,7 @@
 
 #### 3. Installing Docker in Ubuntu
 
-WILL BE UPDATED SOON
+Follow the Official docs to install docker engine based on your OS(https://docs.docker.com/install/)
 
 `$ docker --help`     will return info about all arguments that can be added to docker command
 #### 4. Pull Ubuntu image containing ns2
