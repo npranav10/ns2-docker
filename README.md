@@ -34,8 +34,10 @@ Follow the Official docs to install docker engine based on your OS(https://docs.
 *    `$ docker container run -it npranav10/ns2 bash` will enter into terminal mode of the container.
 *    To validate we can enter the follwing command in another terminal of host machine,
      `$ sudo docker container ls` which will return container id running using corresponding image id.
-*   `$ docker run -it v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY npranav10/ns2 bash `
+*   `$ docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY npranav10/ns2 bash `
     will give you access to terminal of ubuntu container, where we can run ns2.
+*   To avoid typing the whole command line present above, we can use alias to save time.
+    `$ alias dockerns2='docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY npranav10/ns2 bash'` will cutshort our command to just dockerns2. Now run `$ dockerns2` to get into bash of the container.
 *   The command `$ ns ns-simple.tcl` will execute the pre-downloaded sample file. If everything does well, a NAM window will pop up and then rest is in your hands in handling the ns2-ubuntu container. OUTPUT OF EXECUTED TCL FILE WILL BE STORED IN `OUT.NAM` FILE
 #### 5. METHOD TO IMPLEMENT TRACEGRAPH AND A WAY TO STORE YOUR FILES WILL BE ADDED SOON
 
